@@ -1,13 +1,13 @@
 <?
 //settings
 $mydate = date("m.d.y-H-i-s");
-$login = "twitterusername:twitterpassword"; //example "tim:secret"
-$log_location = "/home/user/TwitterWatch/logs"; //create this beforehand natch
+$login = "twitterusername:twitterpassword"; 		//Your Twitter account, yo. example "tim:secret"
+$log_location = "/home/user/TwitterWatch/logs"; 	//create this beforehand natch
 $current_log = "$log_location/current_log.txt";
 $current_count = "$log_location/current_count.txt";
 $prev_log = "$log_location/prev_log.txt";
 $prev_count = "$log_location/prev_count.txt";
-$running_log = "$log_location/running.txt"; //this will have the running comentary
+$running_log = "$log_location/running.txt"; 		//this file will have the running log of activity
 $lockfile = "$log_location/locked";
 
 //Twitter API URLs
