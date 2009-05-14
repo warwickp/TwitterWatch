@@ -7,5 +7,8 @@ Hacked together in 10 minutes
 Needs lots of work
 Thats where you come in
 
+Requires PHP with curl support and a Twitter account. 
+Use cron or a wrapper of some kind to fire this puppy at intervals which meet your exacting needs.
+
 Love
 
