@@ -105,7 +105,7 @@ elseif ($followercount < $last_count){
 	$current_followers_array = explode("\n", trim($followerlog));
 	sort($current_followers_array);
 
-	$follower_diff = array_diff($current_followers_array, $last_followers_array);
+	$follower_diff = array_diff($last_followers_array, $current_followers_array);
 	$restring = implode("\n", $follower_diff);
 
 	$msg = "($mydate) $followercount LOST $foll_diff, previously: $last_count ($restring) \n";
